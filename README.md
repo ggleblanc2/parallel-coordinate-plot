@@ -15,6 +15,8 @@ The parallel coordinate plot creation requires that a plot model be completed be
 
 The plot model has an optional plot title.
 
+A `String` coordinate title can be broken on multiple lines by inserting a `<br>` where you want the text to break.  This is used by the parallel coordinate plot model as a line separator symbol that just happens to be the same as the HTML `<br>`.  That should make it easy to remember.
+
 You must create the same number of coordinate ranges as you have coordinate titles.
 
 The coordinates array must have the same number of values as you have coordinate titles.
