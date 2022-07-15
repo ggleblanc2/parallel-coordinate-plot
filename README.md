@@ -60,7 +60,7 @@ You have to complete the parallel coordinate plot model before you can create th
 
 The parallel coordinate plot model consists of one interface and three concrete classes.
 
-The `NumberRange` is an interface that allows me to create an `int` range with the `IntegerRange` class and a double range with the `DoubleRange` class.  Number is a parent of both `Integer` and `Double`.
+The `NumberRange` is an interface that allows me to create an `int` range with the `IntegerRange` class and a `double` range with the `DoubleRange` class.  `Number` is a parent of both `Integer` and `Double`.
 
 Both range classes take a minimum, maximum, and increment.  The minimum is plotted at the bottom and the maximum is plotted at the top.  The increment allows me to place tick marks and labels at the appropriate locations.
 
