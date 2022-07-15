@@ -117,11 +117,11 @@ public class ParallelCoordinatePlotPanel extends JPanel {
 			return;
 		}
 
-		int width = getWidth() - 40;
+		int width = getWidth() - margin - margin;
 		int coordinateWidth = width / coordinateTitles.length;
 		Font textFont = getTextFont();
 		int coordinateHeight = textFont.getSize() + 4;
-		int x = 20 + coordinateWidth / 2;
+		int x = margin + coordinateWidth / 2;
 		int y = yPlotEnd;
 		
 		for (NumberRange range : coordinateRanges) {
