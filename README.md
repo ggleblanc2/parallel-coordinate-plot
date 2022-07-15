@@ -52,6 +52,8 @@ Here's the actual model code I used to create the drawing.
 
 Oracle has a helpful tutorial, [Creating a GUI With Swing](https://docs.oracle.com/javase/tutorial/uiswing/index.html).  Skip the Learning Swing with the NetBeans IDE section.
 
+I didn't write all this code at once.  I wrote a little bit at a time, and tested the little bnit of code.  If I ran into problems, the problems were probably confined to that little bit of code.  My Eclipse IDE made compiling and testing very easy.  I probably ran 200 - 300 tests before I finished the code.
+
 Basically, I created a parallel coordinate plot model and a drawing `JPanel`.  I also created an example `JFrame` to test the drawing `JPanel` and show how to use the parallel coordinate plot.  Creating a good model makes creating the Swing GUI so much easier.
 
 You have to complete the parallel coordinate plot model before you can create the Swing GUI.
