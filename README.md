@@ -15,7 +15,7 @@ The parallel coordinate plot creation requires that a plot model be completed be
 
 The plot model has an optional plot title.
 
-You must create the same number of coordibate ranges as you have coordinate titles.
+You must create the same number of coordinate ranges as you have coordinate titles.
 
 The coordinates array must have the same number of values as you have coordinate titles.
 
